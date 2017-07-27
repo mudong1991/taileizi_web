@@ -274,8 +274,9 @@ to work with the chosen theme.
 }
 .rm-layout-expanded li ul,
 .rm-layout-expanded .rm-menu-item .rm-menu {
-    width: 13em;
+    width: 126px;
     position: absolute;
+    text-align: center;
     left: 0;
 }
 .rm-layout-expanded li.rm-last ul,
@@ -399,13 +400,11 @@ to work with the chosen theme.
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1060px;
+    max-width: 1200px;
     padding: 1px 3em;
     height: 100%;
 }
-.site-nav {
-    background-color: #0d3371;
-}
+
 .site-nav:after {
     content: " ";
     display: table;
@@ -425,10 +424,17 @@ to work with the chosen theme.
 }
 .brand {
     float: left;
-    height: 80px;
+    height: 60px;
 }
 .brand p {
     margin: 0;
+    margin-left: 14%;
+    background: white;
+    border-radius: 4px;
+}
+.brand img{
+	margin-top: 6px;
+	height: 46px !important;
 }
 .rm-nav {
     letter-spacing: 1px;
@@ -472,9 +478,8 @@ to work with the chosen theme.
 .rm-layout-expanded .rm-top-menu > .rm-menu-item > a {
     height: 60px;
     padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
     line-height: 20px;
+    width: 126px;
     text-align: center;
 }
 
