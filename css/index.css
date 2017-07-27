@@ -49,8 +49,10 @@ body{
 
 
 /*公司视频*/
-.site-video{width: 100%; height: auto; background: green; transition: all .5s; margin-top: 100px; }
+.site-video{width: 100%; height: auto; background: green; transition: all .5s; margin-top: 30px; }
 .video-content{margin-top: 50px;}
-.video-item{margin-top: 10px;}
-.video-item .video-item-content{max-width: 400px; margin: 0 auto; border: 1px solid red; height: 20em; position: relative;}
+.video-item{margin-top: 10px; margin-bottom: 40px;}
+.video-item .video-item-content{max-width: 400px; margin: 0 auto; border: 1px solid red; height: 16em; position: relative;}
 .video-item .video-item-content i{font-size: 40px; position: absolute; top:40%; left: 45%; color: white;}
+
+/*产品介绍*/
