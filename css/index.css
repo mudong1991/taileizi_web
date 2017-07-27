@@ -1,0 +1,41 @@
+body{
+	position: relative;
+	z-index: -2;
+}
+@media (max-width: 992px){
+	.site-top{top: 0px !important;}
+	.site-nav{position: relative !important; margin-bottom: 160px;}
+	#bootstrap-touch-slider{margin-top: 2px !important; } 
+}
+@media (max-width: 768px) {
+	
+}
+
+/*顶部*/
+.site-top{z-index: 10; position: absolute; top: 3.2em; width: 100% !important;}
+.site-top-container{margin: 0 auto; max-width: 1310px;}
+.logo img{height: 4.4em;}
+.logo h3{padding-top: 1.2em;color: #0d3371;padding-left: 0.8em;font-size: 16px;}
+.logo-img-2{width: 24em;margin-left: 1em;}
+.search{position: relative;}
+.search input{width: 100%;background-color:transparent;color: black;height: 3em;padding-left: 1em;border: 0.2em solid #0d3371;border-radius: 1.5em;margin-top: 1em;padding-right: 3em;transition: all 0.3s;}
+.search input:focus{box-shadow: 0em 0em 1em white;}
+.search-button{position: absolute;width: 3em;height: 3em;right: 0em;top: 1em;cursor: pointer;border-bottom-right-radius: 1.5em;border-top-right-radius: 1.5em;text-align: center;}
+.search i{font-size: 2em;color: #0d3371;}
+
+/*轮播*/
+#bootstrap-touch-slider{z-index: -1;position: relative;}
+.bs-slider-overlay{background-color: rgba(0, 0, 0, 0.04) !important;}
+
+/*导航栏*/
+.site-nav{z-index: 100 !important; position: absolute; top: 10.6em; width: 100%; }
+.wrapper{max-width: 1310px !important;}
+.rm-nav li:hover .fa-angle-down{display: none;}
+.rm-nav li:hover .fa-angle-up{display: inline;}
+.rm-menu-item .rm-menu-item a:hover{color: white !important;}
+
+/*关于我们*/
+.site-aboutus h2{margin-top: 70px;}
+.site-aboutus .aboutus-cn{font-size: 20px; line-height: 14px;}
+.site-aboutus .aboutus-cn b{display: block;width: 60px; border: 1px solid #be1e2d; height: 1px; margin: 0 auto; margin-top: 16px;}
+.site-aboutus .aboutus-content{text-indent: 2em; padding: 0 10%; line-height: 2em; margin-top: 40px;}

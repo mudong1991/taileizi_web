@@ -1,0 +1,10 @@
+/*大型设备*/
+@media (min-width: 1200px) {
+	.container{
+		width: 1200px !important;
+	}
+}
+.container{
+	padding-left: 0;
+	padding-right: 0;
+}
