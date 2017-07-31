@@ -205,8 +205,8 @@ to work with the chosen theme.
 .rm-lighten .rm-menu-item .rm-menu-item .rm-menu-item.rm-hover a,
 .rm-lighten .rm-menu-item .rm-menu-expanded a:focus,
 .rm-lighten .rm-menu-item .rm-menu-expanded a:hover {
-    background-color: rgb(128, 128, 128); /* fallback */
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(13, 51, 113, 0.8); /* fallback */
+    background-color: rgba(13, 51, 113, 0.8);
 }
 
 .rm-darken li li a,

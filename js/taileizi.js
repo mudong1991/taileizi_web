@@ -35,7 +35,16 @@ $(function(){
 		$('.video-mask').hide();
 		$("#tailei-video").attr("src", "");
 	})
-	
+	//新闻
+	new ImageSlide({
+		project:"#focusImage",
+		content:".contents li",
+		tigger:".triggers a",
+		dot:".icon-dot a",
+		watch:".link-watch",
+		auto:!0,
+		hide:!0
+	})
 	
 	
 	//--------------------------------关于我们/发展历程----------------
