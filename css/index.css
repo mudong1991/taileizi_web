@@ -21,7 +21,7 @@ body{
 .index-block-cn-title{font-size: 20px; line-height: 14px; color: #444;}
 .index-block-cn-title b{display: block;width: 60px; background:#be1e2d; height: 2px; margin: 0 auto; margin-top: 16px;}
 .show_more{width: 100%; margin-top: 60px;}
-.show_more button{transition: all .5s;width: 100px;display: block; margin: 0 auto;height: 40px; text-align: #be1e2d; color: #be1e2d; border: 1px solid #be1e2d; border-radius: 4px; background: white;}
+.show_more button{transition: all .5s;width: 100px;display: block; margin: 0 auto;height: 40px; text-align: center; color: #be1e2d; border: 1px solid #be1e2d; border-radius: 4px; background: white;}
 .show_more button:hover{font-size: 16px;background: #be1e2d; color: white; box-shadow: 0px 0px 0.3em rgba(0, 0, 0, 0.6); }
 
 /*关于我们*/
@@ -62,13 +62,13 @@ body{
 .product-content-item:hover p{z-index: 4;}
 
 /*新闻中心*/
-.site-news{background: transparent url(../img/bgImg.png) repeat; padding-bottom: 40px; }
+.site-news{background: transparent url(../img/bgImg.png) repeat; padding-bottom: 80px; }
 /* slide */
-.slide,.slide li{height:350px;background-color:#fbfbfb;}
+.slide,.slide li{height:380px;background-color:#fbfbfb;}
 .slide{overflow:hidden;position:relative; margin-top: 60px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);}
 .slide li{position:absolute;overflow:hidden;display:none; left: 0; top: 0;width: 100%;}
 .slide li.current{display:block;}
-.slide li .image{position:absolute;top:0px;left:0px; width: 70%; height: 350px;}
+.slide li .image{position:absolute;top:0px;left:0px; width: 70%; height: 380px;}
 .slide li .text{bottom:0;overflow:hidden;background-color:rgba(0,0,0,0.6);width:30%;float:right;position:relative;height:auto;background:0;filter:none;text-indent:0;padding:16px 10px;text-overflow: ellipsis;overflow: hidden;}
 .slide li .text a{color:#fff;font-size:14px;line-height:17px;float:left;}
 .slide li img{width:100%;height:100%; }
