@@ -19,7 +19,7 @@ a{
 	transition: color 0.2s;
 }
 a:hover{
-	color: #FF6600;
+	color: #be1e2d;
 }
 a:focus{outline:none; -moz-outline-style: none;}
 .on{
