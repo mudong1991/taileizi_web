@@ -30,11 +30,13 @@
 		<link rel="stylesheet" href="fonts/iconfont.css" />
 		<link rel="stylesheet" href="css/bootstrap-touch-slider.css" />
 		<link rel="stylesheet" href="css/responsive-menu.css" />
-
+	
 		<!--首页-->
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/flexible-bootstrap-carousel.js"></script>
+		<script type="text/javascript" src="js/carousel-script.js"></script>
 		<script type="text/javascript" src="js/jquery.easing.1.3.js" ></script>
 		<script type="text/javascript" src="js/onscroll.js"></script>
 		<script type="text/javascript" src="js/jquery.rollGallery_md.js"></script>
@@ -42,6 +44,7 @@
 		<script type="text/javascript" src="js/bootstrap-touch-slider.js"></script>
 		<script type="text/javascript" src="js/modernizr.min.js"></script>
 		<script type="text/javascript" src="js/responsive-menu.min.js"></script>
+		
 		<!--新闻js-->
 		<script type="text/javascript" src="js/prototype.js"></script>
 		<script type="text/javascript" src="js/ImageSlide.js"></script>
@@ -239,8 +242,11 @@
 				关于泰雷兹
 				<b></b>
 			</p>
-			<p class="aboutus-content">
+			<p class="aboutus-content text-ell">
 				日前我国首部住房租售条例公开征求意见，住房租赁和销售市场立法加快步伐，有望通过法治手段遏制各种租房乱象，对住房租赁市场加以规范。此外，广州市近日率先提出“租购同权”，赋予符合条件的承租人子女享有就近入学等公共服务权益，成为扶持住房租赁市场发展、促进市民待遇均等化的一重要举措。首都师范大学政法学院副教授崔俊杰说，“房住不炒”的障碍之一是租购不同权。搭建“租购同权”的平台，使得房东和租客处于相同的法律地位和享有同样的权利，有利于使租房切实成为实现“住有所居”的途径。 
+				日前我国首部住房租售条例公开征求意见，住房租赁和销售市场立法加快步伐，有望通过法治手段遏制各种租房乱象，对住房租赁市场加以规范。此外，广州市近日率先提出“租购同权”，赋予符合条件的承租人子女享有就近入学等公共服务权益，成为扶持住房租赁市场发展、促进市民待遇均等化的一重要举措。首都师范大学政法学院副教授崔俊杰说，“房住不炒”的障碍之一是租购不同权。搭建“租购同权”的平台，使得房东和租客处于相同的法律地位和享有同样的权利，有利于使租房切实成为实现“住有所居”的途径。
+				日前我国首部住房租售条例公开征求意见，住房租赁和销售市场立法加快步伐，有望通过法治手段遏制各种租房乱象，对住房租赁市场加以规范。此外，广州市近日率先提出“租购同权”，赋予符合条件的承租人子女享有就近入学等公共服务权益，成为扶持住房租赁市场发展、促进市民待遇均等化的一重要举措。首都师范大学政法学院副教授崔俊杰说，“房住不炒”的障碍之一是租购不同权。搭建“租购同权”的平台，使得房东和租客处于相同的法律地位和享有同样的权利，有利于使租房切实成为实现“住有所居”的途径。
+				日前我国首部住房租售条例公开征求意见，住房租赁和销售市场立法加快步伐，有望通过法治手段遏制各种租房乱象，对住房租赁市场加以规范。此外，广州市近日率先提出“租购同权”，赋予符合条件的承租人子女享有就近入学等公共服务权益，成为扶持住房租赁市场发展、促进市民待遇均等化的一重要举措。首都师范大学政法学院副教授崔俊杰说，“房住不炒”的障碍之一是租购不同权。搭建“租购同权”的平台，使得房东和租客处于相同的法律地位和享有同样的权利，有利于使租房切实成为实现“住有所居”的途径。
 			</p>
 			
 			<div class="show_more">
@@ -294,39 +300,68 @@
 				<b></b>
 			</p>
 			
-			<div class="col-xs-1"></div>
-			<div class="product-content col-xs-10 clearfix">
-				<div class="col-sm-12 col-md-4 animate-element left-to-right">
-					<div class="product-content-item">
-						<img class="img-responsive" src="img/banner1.jpg" />
-						<p></p>
-						<h4>特飞控制器</h4>
-						<span >
-							您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务
-						</span>
+			<section class="carousel-examples">
+				<div class="container">
+					<div class="carousel-example">
+						<!-- FLEXIBLE BOOTSTRAP CAROUSEL -->
+						<div id="product-content-carousel" class="carousel flexible slide" data-ride="carousel" data-interval="7000" data-wrap="true">
+							
+							<div class="items">
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item1.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+							
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item2.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+								
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item3.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+								
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item4.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+								
+								
+							</div>
+							
+							<div class="carousel-inner" role="listbox">
+								
+							</div>
+							
+							<a class="left carousel-control list-carousel-control" href="#product-content-carousel" role="button" data-slide="prev">
+								<span class="fa fa-angle-left" aria-hidden="true"></span>
+								<span class="sr-only">上一页</span>
+							</a>
+							<a class="right carousel-control list-carousel-control" href="#product-content-carousel" role="button" data-slide="next">
+								<span class="fa fa-angle-right" aria-hidden="true"></span>
+								<span class="sr-only">下一页</span>
+							</a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-4 animate-element left-to-right">
-					<div class="product-content-item">
-						<img class="img-responsive" src="img/banner2.jpg" />
-						<p></p>
-						<h4>特飞控制器</h4>
-						<span >
-							您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务
-						</span>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-4 animate-element left-to-right">
-					<div class="product-content-item">
-						<img class="img-responsive" src="img/banner1.jpg" />
-						<p></p>
-						<h4>特飞控制器</h4>
-						<span >
-							您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务
-						</span>
-					</div>
-				</div>
-			</div>
+			</section>
 			
 			<div class="show_more pull-left">
 				<button>查看更多</button>
@@ -343,8 +378,7 @@
 				<b></b>
 			</p>
 			
-			<div class="col-md-2 col-xs-1"></div>
-            <div id="focusImage" class="slide col-xs-10 col-md-8">
+            <div id="focusImage" class="news-slide container">
 				<ul class="contents">
 					<li class="current">
 						<div class="image animated fadeIn"><a href="#"><img src="img/1.jpg" class="img-responsive"></a></div>
@@ -408,46 +442,92 @@
 		<!--应用案例-->
 		<div class="site-application animated fadeIn clearfix">
 			<h2 class="text-center index-block-en-title">
-				APPPLICATIONCASE
+				APPLICATIONCASE
 			</h2>
 			<p class="text-center index-block-cn-title text-center">
 				应用案例
 				<b></b>
 			</p>
 			
-			<div class="col-xs-1"></div>
-			<div class="application-content col-xs-10 clearfix">
-				<div class="col-sm-12 col-md-4 animate-element left-to-right">
-					<div class="application-content-item">
-						<img class="img-responsive" src="img/banner1.jpg" />
-						<p></p>
-						<h4>特飞控制器</h4>
-						<span >
-							您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务
-						</span>
+			<section class="carousel-examples">
+				<div class="container">
+					<div class="carousel-example">
+						<!-- FLEXIBLE BOOTSTRAP CAROUSEL -->
+						<div id="application-content-carousel" class="carousel flexible slide" data-ride="carousel" data-interval="7000" data-wrap="true">
+							
+							<div class="items">
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item1.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+							
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item2.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+								
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item3.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+								
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item4.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+								
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item5.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+								
+								<div class="flex-item">
+									<a href="#" target="_blank">
+										<img class="img-responsive" src="img/item6.jpg"/>
+										<h4>特发控制器</h4>
+										<span></span>
+										<p>您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务</p>
+									</a>
+								</div>
+							</div>
+							
+							<div class="carousel-inner" role="listbox">
+								
+							</div>
+							
+							<a class="left carousel-control list-carousel-control" href="#application-content-carousel" role="button" data-slide="prev">
+								<span class="fa fa-angle-left" aria-hidden="true"></span>
+								<span class="sr-only">上一页</span>
+							</a>
+							<a class="right carousel-control list-carousel-control" href="#application-content-carousel" role="button" data-slide="next">
+								<span class="fa fa-angle-right" aria-hidden="true"></span>
+								<span class="sr-only">下一页</span>
+							</a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-4 animate-element left-to-right">
-					<div class="application-content-item">
-						<img class="img-responsive" src="img/banner2.jpg" />
-						<p></p>
-						<h4>特飞控制器</h4>
-						<span >
-							您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务
-						</span>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-4 animate-element left-to-right">
-					<div class="application-content-item">
-						<img class="img-responsive" src="img/banner1.jpg" />
-						<p></p>
-						<h4>特飞控制器</h4>
-						<span >
-							您与家人的医疗服务协调顾问，拥有多年临床工作背景和分诊经验，给予您和家人必要的就医指导，帮助您选择适需的科室就医、获得专科医生线上预诊服务，或为您连接您所需的医疗服务
-						</span>
-					</div>
-				</div>
-			</div>
+			</section>
+			
 			
 			<div class="show_more pull-left">
 				<button>查看更多</button>
